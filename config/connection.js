@@ -1,5 +1,4 @@
 var mysql = require("mysql");
-var credential = require("./mycred.js");
 var connection;
 
 if (process.env.JAWSDB_URL) {
@@ -8,7 +7,7 @@ if (process.env.JAWSDB_URL) {
 	connection = mysql.createConnection({
 	  	host: "localhost",
 		user: "root",
-	  	password: credential,
+	  	password: "83meTOOdo91",
 	  	database: "burgers_db"
 	});
 };
